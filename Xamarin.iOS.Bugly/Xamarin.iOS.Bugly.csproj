@@ -50,9 +50,9 @@
   <ItemGroup>
     <NativeReference Include="Bugly.framework">
       <Kind>Framework</Kind>
-      <Frameworks>SystemConfiguration Security</Frameworks>
       <ForceLoad>True</ForceLoad>
       <LinkerFlags>-lz -lc++</LinkerFlags>
+      <Frameworks>SystemConfiguration Security</Frameworks>
     </NativeReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
